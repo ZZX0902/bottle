@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 点击之后的color -->
+    <item android:color="#02ac5c" android:state_activated="true" />
+    <!-- 未点击或再次点击之后的color -->
+    <item android:color="#08e47d" android:state_activated="false" />
+
+</selector>

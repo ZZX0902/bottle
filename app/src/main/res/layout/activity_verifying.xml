@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation = "vertical"
+    android:background="@drawable/beijing2"
+
+    tools:context=".Verifying">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".Verifying">
+
+    <EditText
+        android:hint="请输入手机号码"
+        android:textColorHint="#fdfdfd"
+        android:id="@+id/editText_ver1"
+        android:layout_marginTop="170dp"
+        android:autoLink="all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="35dp" />
+
+    <Button
+        android:id="@+id/button_ver1"
+        android:layout_marginTop="170dp"
+        android:autoLink="all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="35dp"
+        android:text="获取验证码" />
+
+
+</LinearLayout>
+
+
+
+<EditText
+    android:hint="请输入4位验证码"
+    android:textColorHint="#fdfdfd"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="35dp"
+    android:layout_marginTop="0dp"
+    android:drawablePadding="10dp"
+    android:gravity="center_vertical"
+    android:id="@+id/editText_ver2" />
+
+<Button
+    android:id="@+id/button_ver2"
+    android:layout_width="290dp"
+    android:layout_height="48dp"
+    android:background="@drawable/shape"
+    android:textColor="#fdfdfd"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="35dp"
+    android:elevation="0dp"
+    android:text="点击验证" />
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="?android:attr/borderlessButtonStyle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/luyin_fra"
+    android:layout_marginBottom="@dimen/text_margin"
+    android:background="@drawable/beijing1"
+    android:orientation = "vertical"
+    tools:context=".luyin">
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:format="00:00:00"
+        android:id="@+id/timer"/>
+
+    <ImageButton
+        android:id="@+id/btn_control"
+        style="@style/btn_right_angle_bg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:scaleType="center"
+        android:src="@drawable/start" />
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="0dp"
+        android:text="开始录音"
+        android:textSize="10sp"
+        android:textColor="#000000"/>
+
+
+</LinearLayout>

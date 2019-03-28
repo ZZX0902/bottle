@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/beijing2"
+
+    android:orientation = "vertical"
+    tools:context=".Retrievehome">
+
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="35dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="请输入新密码"
+        android:paddingLeft="0dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#fdfdfd"
+        android:textSize="14sp"
+        android:weightSum="2" />
+    <EditText
+        android:id="@+id/register_repassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="35dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="请确认新密码"
+        android:paddingLeft="0dp"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textColorHint="#fdfdfd"
+        android:textSize="14sp"
+        android:weightSum="2" />
+
+    <Button
+        android:id="@+id/button_reh"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:background="@drawable/shape"
+        android:textColor="#fdfdfd"
+        android:layout_marginRight="35dp"
+        android:layout_marginLeft="35dp"
+        android:text="注册"
+        />
+</LinearLayout>

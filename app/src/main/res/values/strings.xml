@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">bottle</string>
+    <string name="title_home">现场录音</string>
+    <string name="title_dashboard">录音文件</string>
+    <string name="title_notifications">好友</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_path">.amr</string>
+    <string name="add_to_playlist">Add</string>
+    <string name="play_list">Play list</string>
+    <string name="duration">duration: %s</string>
+    <string name="no_song">No song</string>
+    <string name="_00_00">00:00</string>
+    <string name="lue">--:--</string>
+    <string name="todo">TODO</string>
+</resources>
