@@ -47,9 +47,6 @@ public class friend_add extends AppCompatActivity {
             but1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent show = new Intent(friend_add.this, home.class);
-                    show.putExtra("id", 1);
-                    startActivity(show);
                     finish();
                 }
             });

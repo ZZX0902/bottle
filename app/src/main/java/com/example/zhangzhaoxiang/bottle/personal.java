@@ -28,9 +28,6 @@ private ImageButton back;
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent show=new Intent(personal.this,home.class);
-                show.putExtra("id",1);
-                startActivity(show);
                 finish();
             }
         });
